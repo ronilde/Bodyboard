@@ -78,8 +78,8 @@ $mensagem='';
                         <img alt="" src="images/31.jpg">
                         <img alt="" src="images/32.jpg">
                         <img alt="" class="span-2" src="images/33.jpg">
-						<img alt="" src="images/33.jpg">
-						<img alt="" src="images/33.jpg">
+						<img alt="" src="images/34.jpg">
+						<img alt="" src="images/35.jpg">
 						
                     </div>
                 </div>

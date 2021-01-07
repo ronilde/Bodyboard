@@ -1,3 +1,6 @@
+<?php
+$mensagem='';
+?>
 <!DOCTYPE HTML>
 
 <html lang="pt">
@@ -178,7 +181,7 @@ try {
     // Content
     $mail->isHTML(true);                                  // Set email format to HTML
     $mail->Subject = 'mensagem';
-    $mail->Body    = '';
+    $mail->Body    = ;
     $mail->AltBody = 'This is the body in plain text for non-HTML mail clients';
 
     $mail->send();

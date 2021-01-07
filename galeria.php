@@ -1,6 +1,3 @@
-<?php
-$mensagem='';
-?>
 <!DOCTYPE HTML>
 
 <html lang="pt">
@@ -34,7 +31,7 @@ $mensagem='';
 
 		<!-- Heading -->
 			<div id="heading" >
-				<h1>Ranking dos Atletas de bodyboard em Portugal</h1>
+				<h1>Galeria</h1>
 			</div>
             <section id="main" class="wrapper">
 				<div class="inner">
@@ -99,12 +96,12 @@ $mensagem='';
 										
 											<!-- Break -->
 											<div class="col-12">
-												<textarea name="textarea" id="textarea" placeholder="Mensagem" rows="6"></textarea>
+												<textarea name="textarea" id="textarea" value=”Enviar” placeholder="Mensagem" rows="6"></textarea>
 											</div>
 											<!-- Break -->
 											<div class="col-12">
 												<ul class="actions">
-													<li><input type="submit" value="Submit Form" class="primary" /></li>
+													<li><input type="submit" value="Submit" class="primary" /></li>
 													<li><input type="reset" value="Reset" /></li>
 												</ul>
 											</div>
@@ -178,10 +175,11 @@ try {
     $mail->addAttachment('/var/tmp/file.tar.gz');         // Add attachments
     $mail->addAttachment('/tmp/image.jpg', 'new.jpg');    // Optional name
 
+	$mensagem = $_POST['mensagem'];
     // Content
     $mail->isHTML(true);                                  // Set email format to HTML
     $mail->Subject = 'mensagem';
-    $mail->Body    = ;
+    $mail->Body    = $_POST['textarea'];
     $mail->AltBody = 'This is the body in plain text for non-HTML mail clients';
 
     $mail->send();

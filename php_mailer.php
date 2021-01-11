@@ -1,9 +1,13 @@
 <?php
 // Import PHPMailer classes into the global namespace
 // These must be at the top of your script, not inside a function
-use PHPMailer\PHPMailer;
-use PHPMailer\SMTP;
-use PHPMailer\Exception;
+use phpmailer\phpmailer\PHPMailer;
+use phpmailer\phpmailer\SMTP;
+use phpmailer\phpmailer\Exception;
+
+require 'phpmailer\phpmailer\src\PHPMailer.php';
+require 'phpmailer\phpmailer\src\SMTP.php';
+require 'phpmailer\phpmailer\src\Exception.php';
 
 // Load Composer's autoloader
 require 'vendor/autoload.php';
@@ -15,7 +19,7 @@ try {
     //Server settings
     $mail->SMTPDebug = SMTP::DEBUG_SERVER;                      // Enable verbose debug output
     $mail->isSMTP();                                            // Send using SMTP
-    $mail->Host       = 'smtp@gmail.com';                    // Set the SMTP server to send through
+    $mail->Host       = 'smtp.gmail.com';                    // Set the SMTP server to send through
     $mail->SMTPAuth   = true;                                   // Enable SMTP authentication
     $mail->Username   = 'bodyboard.ismai@gmail.com';                     // SMTP username
     $mail->Password   = 'Admin123=';                               // SMTP password
@@ -28,13 +32,15 @@ try {
     $mail->addAddress('bodyboard.ismai@gmail.com');               // Name is optional
 
     // Attachments
-    $mail->addAttachment('/var/tmp/file.tar.gz');         // Add attachments
-    $mail->addAttachment('/tmp/image.jpg', 'new.jpg');    // Optional name
+    //$mail->addAttachment('/var/tmp/file.tar.gz');         // Add attachments
+   // $mail->addAttachment('/tmp/image.jpg', 'new.jpg');    // Optional name
 
+	
     // Content
-    $mail->isHTML(true);                                  // Set email format to HTML
+	$mail->isHTML(true);     
+    $content= $_POST['textarea'];                             // Set email format to HTML
     $mail->Subject = 'mensagem';
-    $mail->Body    = '';
+    $mail->Body    = $content;
     $mail->AltBody = 'This is the body in plain text for non-HTML mail clients';
 
     $mail->send();
@@ -42,3 +48,4 @@ try {
 } catch (Exception $e) {
     echo "Message could not be sent. Mailer Error: {$mail->ErrorInfo}";
 }
+?>

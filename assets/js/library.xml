@@ -1,0 +1,140 @@
+<?xml version="1.0"?>
+
+<Library>
+
+
+<List>
+
+<ISBN>9780470565186</ISBN>
+
+<BookName>Introduction To Engineering, Modeling And Problem Solving</BookName>
+
+<Editor>JOHN WILEY AND SONS LTD</Editor>
+
+<Language>en</Language>
+
+<Price currency="Euro">56,28</Price>
+
+</List>
+
+
+<List>
+
+<ISBN>9781119373520 </ISBN>
+
+<BookName>System Reliability Theory</BookName>
+
+<Editor>JOHN WILEY AND SONS LTD</Editor>
+
+<Language>en</Language>
+
+<Price currency="Euro">159,31</Price>
+
+</List>
+
+
+<List>
+
+<ISBN>9780935470338</ISBN>
+
+<BookName>The Changing Structure Of American Industry And Energy Use Patterns</BookName>
+
+<Editor>Battelle Press</Editor>
+
+<Language>en</Language>
+
+<Price currency="Euro">50,31</Price>
+
+</List>
+
+
+<List>
+
+<ISBN>9781439809440</ISBN>
+
+<BookName>Unit Operations In Food Engineering</BookName>
+
+<Editor>TAYLOR & FRANCIS INC</Editor>
+
+<Language>en</Language>
+
+<Price currency="Euro">155,71</Price>
+
+</List>
+
+
+-<List>
+
+<ISBN>9780367419172</ISBN>
+
+<BookName>Bicycle Engineering And Technology</BookName>
+
+<Editor>TAYLOR & FRANCIS LTD</Editor>
+
+<Language>en</Language>
+
+<Price currency="Euro">143,74</Price>
+
+</List>
+
+
+-<List>
+
+<ISBN>9789390371792 </ISBN>
+
+<BookName>Artificial Intelligence</BookName>
+
+<Editor>Associated Publishing Company</Editor>
+
+<Language>en</Language>
+
+<Price currency="Euro">47,91</Price>
+
+</List>
+
+
+<List>
+
+<ISBN>9788770221368</ISBN>
+
+<BookName>Advanced Polymeric Systems</BookName>
+
+<Editor>RIVER PUBLISHERS</Editor>
+
+<Language>en</Language>
+
+<Price currency="Euro">106,54</Price>
+
+</List>
+
+
+<List>
+
+<ISBN>9780367896041</ISBN>
+
+<BookName>Understanding The Nec4 Professional Service Contract</BookName>
+
+<Editor>TAYLOR & FRANCIS LTD</Editor>
+
+<Language>en</Language>
+
+<Price currency="Euro">143,74</Price>
+
+</List>
+
+
+<List>
+
+<ISBN>9780753541470</ISBN>
+
+<BookName>Salt, Sugar, Fat</BookName>
+
+<Editor>Ebury Publishing</Editor>
+
+<Language>en</Language>
+
+<Price currency="Euro">15,56</Price>
+
+</List>
+
+</Library>

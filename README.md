@@ -19,7 +19,6 @@ _In this project I will use the following technologies._
 
 * JQuery
 * PHPMailer
-* Bootstrap
 
 
 ## Team

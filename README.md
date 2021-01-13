@@ -12,7 +12,7 @@ _In this project I will use the following technologies._
 * [XML](https://www.w3.org/standards/xml/core.html)
 * [HTML5](https://www.w3.org/TR/html52/)
 * [CSS3](https://www.w3.org/TR/2001/WD-css3-roadmap-20010523/)
-*[Javascript](https://www.javascript.com/)
+* [Javascript](https://www.javascript.com/)
 * [PHP](https://www.php.net/)
 
 ### Frameworks and Libraries
@@ -21,8 +21,6 @@ _In this project I will use the following technologies._
 * PHPMailer
 * Bootstrap
 
-### Product
-* C3: [Product](doc/c3.md)
 
 ## Team
 * Gonçalo Fontes [@Goncal01](https://github.com/Goncal01)

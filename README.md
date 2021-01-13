@@ -19,10 +19,7 @@ _In this project I will use the following technologies._
 
 * JQuery
 * PHPMailer
-* Bootstrap
 
-### Product
-* C3: [Product](doc/c3.md)
 
 ## Team
 * Gonçalo Fontes [@Goncal01](https://github.com/Goncal01)
